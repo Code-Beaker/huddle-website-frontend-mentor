@@ -1,0 +1,115 @@
+@import "./variables.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-poppins: "Poppins", sans-serif;
+  --font-sans: "Open Sans", sans-serif;
+
+  --fw-regular: 400;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  --font-size: 18px;
+
+  --primary-pink: hsl(322, 100%, 66%);
+
+  --neutral-pale-cyan: hsl(193, 100%, 96%);
+  --neutral-dark-cyan: hsl(192, 100%, 9%);
+  --neutral-blue: hsl(208, 11%, 55%);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  height: 100px;
+  width: 100%;
+  background: transparent;
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+}
+
+.nav-logo-img {
+  max-width: 7rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-poppins);
+}
+
+p,
+a {
+  font-family: var(--font-sans);
+}
+
+.nav-btn {
+  display: block;
+  text-transform: capitalize;
+  font-family: var(--font-sans);
+  padding: 0.75rem 2.5rem;
+  border: none;
+  font-weight: var(--fw-semibold);
+  border-radius: 5rem;
+  background-color: white;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.header {
+  background-color: var(--neutral-pale-cyan);
+  background-image: url("images/bg-hero-desktop.svg");
+}
+
+.hero-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  /* padding: auto 3rem; */
+}
+
+.hero-text-content {
+  padding-right: 1rem;
+  padding-left: 3rem;
+}
+
+.hero-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero-image-wrapper {
+  padding: 3rem;
+}
+
+.hero-image {
+  max-width: 30rem;
+}
+
+.hero-btn {
+  padding: 1rem 4rem;
+  margin-top: 1rem;
+  border-radius: 5rem;
+  font-weight: var(--fw-semibold);
+  border: none;
+  background-color: var(--primary-pink);
+  display: block;
+  color: white;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  opacity: 0.75;
+}
