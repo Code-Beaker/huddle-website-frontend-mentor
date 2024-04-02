@@ -18,6 +18,8 @@ This is a solution for the Huddle landing page challenge from Frontend Mentor.
 ### Desktop preview
 
 ![Desktop Preview](desktop-preview.jpg)
+> [!NOTE]
+> This screenshot was taken before I pushed the branch in which the `footer__popup` was created.
 
 ## Tools and Techniques
 
