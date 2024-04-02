@@ -103,6 +103,7 @@ a {
   border-radius: 5rem;
   font-weight: var(--fw-semibold);
   border: none;
+  font-size: 1.125rem;
   background-color: var(--primary-pink);
   display: block;
   color: white;
@@ -141,4 +142,72 @@ a {
 .section__title {
   font-size: 1.75rem;
   margin-bottom: 1rem;
+}
+
+.footer {
+  color: white;
+  background-color: var(--neutral-dark-cyan);
+  padding: 6rem 3rem;
+}
+
+.footer__logo {
+  max-width: 300px;
+}
+
+.footer-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: space-evenly;
+  /* padding: 2rem; */
+  gap: 2rem;
+}
+
+.footer__text-content {
+  margin: 1rem 0;
+  display: inline-block;
+}
+
+.footer__text-with-icon {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  align-items: flex-start;
+}
+
+.footer__navbar {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+
+.footer__navlink {
+  color: white;
+  display: inline-block;
+  margin: 0.5rem 0;
+  text-decoration: none;
+}
+
+.footer__nav-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-copyright-and-social-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.footer__social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer__link-icon {
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  color: white;
 }
