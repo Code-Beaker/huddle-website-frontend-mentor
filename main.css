@@ -247,6 +247,10 @@ a {
   }
 
   .hero-text-content {
+    padding: 1rem;
+  }
+
+  .hero-text-content {
     text-align: center;
   }
 
