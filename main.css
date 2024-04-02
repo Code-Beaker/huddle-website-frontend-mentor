@@ -75,6 +75,7 @@ a {
   background-color: var(--neutral-pale-cyan);
   background-image: url("images/bg-hero-desktop.svg");
   background-size: cover;
+  width: 100%;
 }
 
 .hero-cols {
@@ -242,8 +243,12 @@ a {
 
 /* responsive for smaller screens */
 @media screen and (max-width: 700px) {
-  .hero-cols {
+  .hero .hero-cols {
     grid-template-columns: 1fr;
+  }
+
+  .hero-title {
+    font-size: 1rem;
   }
 
   .hero-text-content {
@@ -254,8 +259,14 @@ a {
     text-align: center;
   }
 
+  .hero-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .hero-image {
-    max-width: 20rem;
+    max-width: 15rem;
   }
 
   .sections-wrapper {
@@ -264,6 +275,10 @@ a {
 
   .section-grid {
     grid-template-columns: 1fr;
+  }
+
+  .section {
+    padding: 2.5rem;
   }
 
   .section__title {
