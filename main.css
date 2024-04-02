@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
 :root {
   --font-poppins: "Poppins", sans-serif;
   --font-sans: "Open Sans", sans-serif;
@@ -70,6 +74,7 @@ a {
 .header {
   background-color: var(--neutral-pale-cyan);
   background-image: url("images/bg-hero-desktop.svg");
+  background-size: cover;
 }
 
 .hero-cols {
