@@ -162,7 +162,8 @@ a {
 .footer {
   color: white;
   background-color: var(--neutral-dark-cyan);
-  padding: 6rem 3rem;
+  padding: 3rem;
+  padding-top: 10rem;
   position: relative;
 }
 
