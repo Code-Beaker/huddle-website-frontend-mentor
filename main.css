@@ -254,9 +254,14 @@ a {
   text-decoration: none;
 }
 
+.footer__navlink:hover {
+  text-decoration: underline;
+}
+
 .footer__nav-list {
   display: flex;
   flex-direction: column;
+  list-style: none;
 }
 
 .footer-copyright-and-social-icons {
@@ -276,6 +281,10 @@ a {
   font-size: 1.5rem;
   padding: 0.5rem;
   color: white;
+}
+
+.footer__link-icon:hover {
+  color: var(--primary-pink);
 }
 
 @media screen and (max-width: 800px) {
